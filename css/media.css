@@ -1,0 +1,686 @@
+/* tablet */
+@media only screen and (min-width:768px){
+    .left-nav {
+        width: fit-content;
+    }
+ .hero-img{
+    padding: 4.5rem;
+ }
+ #section-1{
+    padding-bottom: 10vh;
+ }
+ #section-1 h2{
+    padding-left: 12rem;
+    padding-right:8rem ;
+ }
+ #section-1 .cards{
+    margin-bottom: 2vh;
+ }
+ #section-1 .cards .card{
+    width: 45%;
+    height: 60vh;
+ }
+ #section-2 .review-cards{
+    height: 48vh;
+ }
+ #section-2 .review-cards .review-card{
+    width: 45%;
+ }
+ #section-3{
+    height: 150vh;
+ }
+ #section-3 .origin-txt{
+    height: 90%;
+ }
+ #section-3 .origin-txt>p{
+    padding: 0 12rem;
+ }
+ #section-4 {
+    height: 80vh;
+ }
+ #section-5{
+    height: 110vh;
+ }
+ #section-5 .image{
+    height: 65%;
+ }
+ #section-5 .text h1{
+    padding: 1rem 12rem;
+ }
+ #section-5 .text p{
+    padding: 2rem 5rem;
+ }
+ #section-5 .text button{
+    width: fit-content;
+ }
+ #section-6{
+    height: 150vh;
+    padding: 9rem 1.5rem 6rem 1.5rem;
+ }
+ #section-6 .our-lattes .our-lattes-heading h1{
+    padding: 0.2rem 10rem;
+ }
+ #section-6 .our-lattes .our-lattes-info .latte-img{
+    height: 75%;
+    margin-left: -6rem;
+    margin-top: -8rem;
+ }
+ .our-lattes-info .latte-text{
+    height: 35%;
+    bottom: 0;
+    
+ }
+ #section-7{
+    height: 85vh;
+ }
+ #section-7 .journal-txt h2{
+    padding-right: 12rem;
+ }
+ #section-7 .journal-images .journal-card{
+    width: 42%;
+ }
+ #section-8{
+    height: 110vh;
+ }
+ #section-8 .about-us-img{
+    height: 70%;
+}
+#section-8 .about-us-txt{
+    height: 30%;
+}
+footer{
+    height: 120vh;
+}
+footer #footer-top .footer-top-top .sign-up-txt{
+    height: 25%;
+}
+footer #footer-top .footer-top-top .sign-up{
+    height: 65%;
+} 
+}
+
+
+
+
+@media only screen and (min-width:965px) {
+    
+     .left-nav a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5VW;
+        text-decoration: none;
+        font-family: reckless_md;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        font-weight: 200;
+        color: var(--color-text-charcoalGray);
+    }
+       .left-nav .menu-icon{
+        display: none;
+    }
+    .right-nav .right-nav-links{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:clamp(0.5rem, 2vw, 3rem);
+    }
+    .right-nav-links a{
+        text-decoration: none;  
+        color: var(--color-text-black);
+        text-transform: uppercase;
+        white-space: nowrap;
+        font-family: var(--custom-font-3);
+        font-size: clamp(0.5rem, 1vw, 0.72rem);
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    main #hero{
+        /* flex-direction: row; */
+        height: 78vh;
+        padding: 2.5rem;
+    }
+    .hero-img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: -28rem;
+        top: 0;
+    }
+    .hero-text{
+        width:max(1000px,33vw);
+        height: fit-content;
+    }
+    .hero-text p{
+        padding-right: 30rem;
+        
+    }
+    .hero-text .sub-heading .hero-btn{
+        width: fit-content;
+        /* padding: 1rem 5rem; */
+    }
+    #section-1 h2{
+        width: 90%;
+    }
+    #section-1 #section-1-top{
+        align-items: center;
+    }
+    #section-1 .cards{
+        padding: 2.5rem;
+    }
+    #section-1 .cards .card{
+        width: 35%;
+        height: 45vh;
+    }
+    #section-2 #section-2-top{
+        padding-left: 2.5rem;
+        margin-bottom:4rem;
+    }
+    #section-2 #section-2-top h2{
+        display: block;
+        font-family: var(--custom-font-1A);
+        font-size: clamp(2rem,7vw,3.5rem);
+        font-weight: 300;
+    }
+    #section-2 .review-cards{
+        height: 35vh;
+    }
+    .review-card .reviews{
+        padding: 0.5rem;
+    }
+    .review-card:is(:nth-child(2), :nth-child(3)) .reviews > h2{
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+    #section-2 .review-cards .review-card{
+        width: 28%;
+        padding: 0.8rem;
+    }
+    .review-card .item{
+        height: 30%;
+    }
+    #section-3 .origin-txt>p{
+        padding: 0 clamp(3rem, 10vw, 10rem);
+        font-size: clamp(2rem, 8vw, 3.25rem);
+    }
+    .origin-txt .brand-values .value{
+        width:120px;
+        gap: 0.5rem;
+    }
+    .value .value-img{
+        padding: 1rem;
+    }
+    #section-3 .our-story-btn button{
+        width: fit-content;
+        padding: 1.8rem 4rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #section-4{
+        padding: 8rem 2.5rem;
+    }
+    #section-4 p{
+        margin-top: 7rem;
+    }
+    #section-4 .search-subheading input{
+        margin-top: 4rem;
+        width: fit-content;
+    }
+    #section-5{
+        height: 38vh;
+        flex-direction: row;
+    }
+    #section-5 .image{
+        width: 50%;
+        height: 100%;
+    }
+    #section-5 .text{
+        width: 50%;
+        text-align: left;
+        padding: 1rem 3.5rem;
+        align-items: flex-start;
+    }
+    #section-5 .text h1{
+        /* padding: 1rem 2rem; */
+         font-size: clamp(5rem ,10vw,5.25rem);
+        padding: 0;
+        text-align: left;
+    }
+    #section-5 .text p{
+        padding: 1.4rem 0;
+        text-align: left;
+        font-size: 1.29rem;
+    }
+    #section-5 .text button{
+        margin: 1.5rem 0;
+        padding: 0.8rem 4rem;
+    }
+    #section-6{
+        height: 70vh;
+        padding: 5rem 1.5rem 1.5rem 1.5rem;
+    }
+    #section-6 .our-lattes .our-lattes-heading{
+        height: 45%;
+        width: 100%;
+    }
+     #section-6 .our-lattes .our-lattes-heading h1{
+        padding: 0;
+     }
+    #section-6 .our-lattes .our-lattes-info{
+        height: 55%;
+        width: 100%;
+        display: flex;
+    }
+    #section-6 .our-lattes .our-lattes-info .latte-img{
+        width: 55%;
+        height: 100%;
+        margin: 0;
+    }
+    #section-6 .our-lattes .our-lattes-info .latte-img .latte-img-1{
+        object-fit: cover;
+        object-position: right;
+        margin: -4.5rem 0 0 -1rem;
+    }
+    .our-lattes .our-lattes-info .latte-text{
+        width: 45%;
+        height: 100%;
+        position: relative;
+        align-items: flex-start;
+        padding: 3rem 4rem 3rem 1.5rem;
+        
+    }
+    .our-lattes .our-lattes-info .latte-text h2{
+        text-align: left;
+        padding: 0.8rem 0;
+    }
+    .our-lattes .our-lattes-info .latte-text p{
+        text-align: left;
+        padding: 0.8rem 0;
+    }
+    #section-7{
+        height: 75vh;
+    }
+    #section-7 > .journal-txt,
+    #section-7 > .journal-images,
+    #section-7 > .journal-btn{
+        box-sizing: border-box;
+    }
+    #section-7 .journal-txt{
+        height: 45%;
+        padding: 7rem 2.5rem;
+    }
+    #section-7 .journal-txt h2{
+        padding: 0;
+        font-size: clamp(3.5rem,8vw,3.75rem);
+    }
+    #section-7 .journal-images{
+        height: 45%;
+        padding: 2.5rem;
+    }
+    #section-7 .journal-images .journal-card{
+        width: 35%;
+    }
+    #section-7 .journal-btn{
+        height: 10%;
+    }
+    #section-8{
+        height: 60vh;
+        position: relative;
+    }
+    #section-8 .about-us-img{
+        height: 100%;
+    }
+    #section-8 .about-us-txt{
+        height: 90%;
+        width: 45%;
+        position: absolute;
+        top: 2.1rem;
+        left: 2.1rem;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+    .about-us-txt .txt-top{
+        height: 85%;
+        padding: 5rem 3rem 2rem 3rem;
+    }
+    .txt-top h2{
+        text-align: left;
+        font-size: clamp(3.5rem, 8vw, 3.75rem);
+    }
+    .txt-top p{
+        text-align: left;
+    }
+    .about-us-txt .about-us-btn{
+        height: 15%;
+        justify-content: flex-start;
+        padding: 0.8rem 3rem;
+    }
+    .about-us-btn button{
+        width: fit-content;
+        
+    }
+    footer{
+        height: 130vh;
+    }
+    footer #footer-top{
+        padding: 4rem 2.5rem;
+    }
+    footer #footer-top .footer-top-top{
+        height: 20%;
+    }
+    footer #footer-top .footer-top-top .sign-up-txt{
+        height: 70%;
+        justify-content: space-evenly;
+        padding-right: 32rem;
+    }
+    footer #footer-top .footer-top-top .sign-up{
+        height: 30%;
+        flex-direction: row;
+        align-items: center;
+    }
+    footer #footer-top .footer-top-top .sign-up-txt h2{
+        font-size: clamp(2.3rem, 10vw, 2.5rem);
+    }
+    footer #footer-top .footer-top-top .sign-up-txt p{
+        font-size: 2rem;
+        padding-right: 20rem;
+    }
+    .footer-top-top form{
+        flex-direction: row;
+    }
+    form{
+        width: 60%;
+    }
+    form input{
+        width: 60%;
+    }
+    form button{
+        width: fit-content;
+    }
+    footer #footer-top .footer-top-bottom{
+        height: 75%;
+        padding: 2rem;
+    }
+    footer #footer-top .footer-top-bottom hr{
+        display: none;
+    }
+    #footer-top .footer-top-bottom .navigation{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+    #footer-top .footer-top-bottom .navi-column{
+        width: 27%;
+        height: 32%;
+    
+        flex-direction: column;
+        gap: 0.7rem;
+        justify-content: flex-start;
+
+    }
+    #footer-top .footer-top-bottom .navi-column h2{
+        font-size: 1.5rem;
+        font-family: var(--custom-font-1A);
+        text-transform: capitalize;
+    }
+    #footer-top .footer-top-bottom .navi-column .services svg{
+        display: none;
+    }
+    #footer-top .footer-top-bottom .navi-column .services{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+    #footer-top .footer-top-bottom .navi-column .services p{
+        display: block;
+        text-wrap: nowrap;
+        font-size: 1rem;
+        text-transform: capitalize;
+        color: rgba(255, 255, 255, 0.532);
+        position: relative;
+        width: fit-content;
+        transition: color 0.35s ease;
+    }
+    #footer-top .footer-top-bottom .navi-column .services p::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.35s ease;
+    }
+    #footer-top .footer-top-bottom .navi-column .services p:hover::after{
+        transform: scaleX(1);
+    }
+    #footer-top .footer-top-bottom .navi-column .services p:hover{
+        color: white;
+    }
+    footer .footer-bottom #footer-bottom-top{
+        height: 35%;
+        width: 100%;
+        position: absolute;
+        
+    }
+    footer .footer-bottom #footer-bottom-bottom{
+        height: 100%;
+    }
+}
+
+
+
+
+/* desktop */
+@media only screen and (min-width:1034px){
+   
+    .left-nav{
+        width: 30%;
+    }
+    main #hero{
+        /* flex-direction: row; */
+        height: 93vh;
+        padding-left: 2.5rem;
+    }
+    .hero-img{
+        width:70vw;
+        height: 100%;
+        /* padding: 3rem; */
+        position: absolute;
+        right: 0;
+        top: 1rem;
+    }
+   #section-1{
+    display: flex;
+    
+   }
+   #section-1 h2{
+        width: 76%;
+    }
+    #section-1 .cards .card{
+        width: 23%;
+        height: 80vh;
+    }
+    #section-2 #section-2-top{
+      padding-left: 18rem;
+    }
+    #section-2 .review-cards{
+        display: flex;
+        justify-content: center;
+        height: 60vh;
+        gap: 0.8rem;
+    }
+    #section-2 .review-cards .review-card{
+        width: 17%;
+        padding: 0.5rem;
+    }
+    #section-2 .review-cards .review-card .item-txt p{
+        font-size: 0.7rem;
+    }
+    #section-2 .review-cards .review-card .item{
+        height: 28%;
+    }
+     #section-3{
+        height: 250vh;
+     }
+     #section-3 .origin-txt h1{
+        padding: 0 15rem;
+     }
+     #section-4{
+        height: 140vh;
+        padding: 8rem 10rem 10rem 18rem;
+     }
+     #section-5 {
+        height: 92vh;
+     }
+     #section-5 .text{
+        padding: 10rem 8rem 10rem 4rem;
+     }
+     #section-5 .text p{
+        padding: 2rem 2rem 2rem 0;
+     }
+     #section-6{
+        height: 110vh;
+     }
+     #section-6 .our-lattes .our-lattes-info{
+        position: relative;
+     }
+      #section-6 .our-lattes .our-lattes-info .latte-img{
+        width: 60%;
+        height: 100%;
+        margin: -4rem 2rem;
+    }
+     #section-6 .our-lattes .our-lattes-info .latte-img .latte-img-1{
+        display: none;
+     }
+    #section-6 .our-lattes .our-lattes-info .latte-img .latte-img-2{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+    #section-6 .our-lattes .our-lattes-info .latte-text{
+        width: 40%;
+        height: 100%;
+        align-items: flex-start;
+        /* background-color: aliceblue; */
+        margin: 0;
+        padding: 2rem 0rem;
+        position: absolute;
+        right: 4%;
+        
+    }
+    .our-lattes .our-lattes-info .latte-text p{
+        text-align: left;
+        padding: 0.5rem 10rem 0.5rem 0;
+    }
+      #section-7{
+        height: 130vh;
+        
+    }
+    #section-7 .journal-txt{
+        height: 35%;
+        margin: auto;
+        padding: 4.5rem 0 2rem 0;
+    }
+    #section-7 .journal-txt .journal-tag{
+        margin-left: 17rem;
+    }
+    #section-7 .journal-txt h2{
+        text-align: center;
+    }
+    #section-7 .journal-images{
+        height: 45%;
+        padding: 2.5rem;
+    }
+    #section-7 .journal-images .journal-card{
+        width: 20%;
+    }
+    #section-7 .journal-btn{
+        height: 15%;
+    }
+    #section-8{
+        height: 95vh;
+    }
+    #section-8 .about-us-img{
+        height: 100%;
+    }
+    #section-8 .about-us-txt{
+        height: 90%;
+        width: 28%;
+        position: absolute;
+        top: 2.1rem;
+        left: 2.1rem;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+    .about-us-txt .txt-top{
+        height: 85%;
+        padding: 5rem 3rem 2rem 3rem;
+    }
+    .txt-top h2{
+        text-align: left;
+        font-size: clamp(3.5rem, 8vw, 3.75rem);
+    }
+    .txt-top p{
+        text-align: left;
+    }
+    .about-us-txt .about-us-btn{
+        height: 15%;
+        justify-content: flex-start;
+        padding: 0.8rem 3rem;
+    }
+    .about-us-btn button{
+        width: fit-content;
+        
+    }
+    footer{
+        height: 190vh;
+    }
+    footer #footer-top{
+        height: 70%;
+        padding: 3rem 2.5rem;
+    }
+    footer #footer-top .footer-top-top{
+        height: 30%;
+        width: 70%;
+        margin: auto;
+    }
+    footer #footer-top .footer-top-top .sign-up-txt p{
+        padding: 0;
+    }
+    footer #footer-top .footer-top-top .sign-up{
+         padding: 2rem 0;
+    }
+    
+    .footer-top-top form{
+         width: 60%;
+        
+    }
+    footer #footer-top .footer-top-bottom{
+        height: 65%;
+        padding: 3rem;
+    }
+    footer #footer-top .footer-top-bottom .navigation{
+        gap: 4rem;
+        justify-content: space-between;
+    }
+    footer #footer-top .footer-top-bottom .navi-column{
+        width: fit-content;
+        height: 50%;
+    }
+    #footer-top .footer-top-bottom .navi-column .services{
+        gap: 0.1rem;
+    }
+    footer .footer-bottom{
+        height: 28%;
+    }
+}
