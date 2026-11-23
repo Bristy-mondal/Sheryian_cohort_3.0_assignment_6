@@ -964,9 +964,10 @@ main #hero{
 }
 .our-lattes-info .latte-img{
     height: 50%;
-    width: 100%;
+    width: 90vw;
+    padding: 1rem;
     margin-top: -5rem;
-    margin-left: -3rem;
+    margin-left: -1vw;
     
 }
 .our-lattes-info .latte-img .latte-img-1{
