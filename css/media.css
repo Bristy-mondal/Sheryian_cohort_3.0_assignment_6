@@ -152,6 +152,7 @@ footer #footer-top .footer-top-top .sign-up{
     .hero-text{
         width:max(1000px,33vw);
         height: fit-content;
+        left: 2.5rem;
     }
     .hero-text p{
         padding-right: 30rem;
@@ -488,6 +489,9 @@ footer #footer-top .footer-top-top .sign-up{
         /* flex-direction: row; */
         height: 93vh;
         padding-left: 2.5rem;
+    }
+    #hero .hero-text{
+        left: -26rem;
     }
     .hero-img{
         width:70vw;
